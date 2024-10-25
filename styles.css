@@ -6,6 +6,7 @@
 
 body {
   background-color: black;
+  font-family: Roboto, sans-serif;
 }
 
 .outer {
@@ -23,16 +24,135 @@ body {
 .header {
   background-color: white;
   grid-column: 2 / 3;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 0.4fr 5.5fr .5fr .5fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.bar {
+  background-color: #e1e8f0;
+  height: 28px;
+  width: 545px;
+  border-radius: 45px;
+}
+
+.small {
+  background-color: #fccb15;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.big {
+  margin: 0;
+  background-color: #fccb15;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+
+.info {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+button {
+  color: white;
+  background-color: #1892d3;
+  font-size: 14px;
+  font-weight: 600;
+  border-style: none;
+  border-radius: 45px;
+  height: 38px;
+  width: 90px;
+  margin-left: 24px;
+}
+
+.buttons {
+  margin-left: 10px;
+}
+
+.user {
+  margin-right: 120px;
+  text-align: start;
+}
+
+.hi {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.handle {
+  font-size: 21px;
 }
 
 .sidebar {
   background-color: #1892d3;
+  padding-left: 30px;
+  padding-top: 20px;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
-  
+  color: white;
+  display: grid;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo p {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.nav {
+  height: 300px;
+}
+
+.settings {
+  height: 500px;
+}
+
+.sidebar li {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 25px;
 }
 
 .main {
   background-color: #e1e8f0;
   grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 2.7fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 35px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.projects {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+ul {
+  list-style-type: none;
 }
