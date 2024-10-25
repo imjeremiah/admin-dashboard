@@ -156,3 +156,105 @@ button {
 ul {
   list-style-type: none;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.card {
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 165px;
+  width: 300px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px 0px gainsboro;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.text {
+  font-size: 13px;
+  font-weight: 400;
+  color: gray;
+}
+
+div .svg {
+  justify-self: end;
+  margin-top: 15px;
+}
+
+.announcements p {
+  margin-bottom: 10px;
+}
+
+.a-card {
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 265px;
+  width: 210px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px 0px gainsboro;
+}
+
+.a-title {
+  font-size: 13px;
+}
+
+.a-text {
+  font-size: 11px;
+  font-weight: 400;
+  color: gray;
+}
+
+.trending p {
+  margin-bottom: 10px;
+}
+
+.blue {
+  background-color: #e0f2fc;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.yellow {
+  background-color: #fccb15;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.gray {
+  background-color: #a3a2a3;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.pink {
+  background-color: #fea3ae;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 20px;
+}
